@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<style>
+.btna{width:120px;padding: 4px 10px;border:none;background:green;}
+.btn{ 
+border:none;
+background:green;
+padding: 4px 10px;
+font-size: 14px;
+line-height: 20px;
+cursor: pointer;
+color: #fff;
+text-align: center;
+overflow: visible;
+-webkit-appearance: none;
+}
+
+</style>
+<body> 
+	<form action="upload.php" method="post" 
+enctype="multipart/form-data">
+		<input type="file" name="file" class="btna"/> 
+		<input type="hidden" name="path" id="path"/>
+		<input type="submit" class="btn" value="Upload"/> 
+	</form> 
+	<script >
+		document.getElementById('path').value=top.tinymce.activeEditor.getParam('imageupload_url');
+	 
+	</script>
+	 
+</body>
+</html>
