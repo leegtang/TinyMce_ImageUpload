@@ -7,8 +7,8 @@ ImageUpload plugin for TinyMce
 It works at version 4.0.28
 
 
-init
-<pre>
+init:
+-----
 <script>
 tinymce.init({
 	    ...,
@@ -20,5 +20,4 @@ tinymce.init({
 		...
  });
  
- </script>
- </pre>
+ </script> 
