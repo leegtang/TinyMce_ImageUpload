@@ -34,8 +34,8 @@ $image_height = $image_info[1];
   $_SERVER['CONTEXT_DOCUMENT_ROOT']. $fn);
       
      echo "<image src=\"$fn\" width=\"300\" height=\"200\"/><input type=\"hidden\" id=\"content\" value=\"$fn\"/>
-<input type=\"hidden\" id=\"height\" value=\"$image_width\"/>
-<input type=\"hidden\" id=\"width\" value=\"$image_height\"/>";
+<input type=\"hidden\" id=\"height\" value=\"$image_height\"/>
+<input type=\"hidden\" id=\"width\" value=\"$image_width\"/>";
   
 //    }
   }
